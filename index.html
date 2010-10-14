@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>{{ BUSTROPHEDIZE | ∃ZID∃HPOЯTSUB }}</title>
+    <title>boustrophedize</title>
     <script type="text/javascript">
 window.onload = function () {
   var ps = document.getElementsByTagName("p");
   for (var i = 0; i < ps.length; i++) {
-    bustrophedize(ps[i]);
+    boustrophedize(ps[i]);
   }
 };
 
-function bustrophedize(p) {
+function boustrophedize(p) {
   var lineheight = Number(window.getComputedStyle(p, null).getPropertyValue("line-height").replace("px", ""));
   var words = p.firstChild.nodeValue.match(/\S+/g);
   p.removeChild(p.firstChild);

@@ -1,0 +1,22 @@
+
+                                 boustrophedize
+                                 ezidehportsuob
+
+                               Writing like an ox
+
+Boustrophedon (http://en.wikipedia.org/wiki/Boustrophedon) is the name of the
+writing system, that turned round after every line. While the odd lines run
+from left to right, the even ones are mirrored and run from right to left.
+
+This Javascript library tries to mimic that behaviour in HTML. It is in early
+alpha state and currently works only
+
+- in Firefox, and
+
+- for elements with only a single text node as children
+
+
+Legalese:
+Copyright © 2010 Manuel Strehl
+Dual-licensed under an MIT-like license and the GPL v2.
+
